@@ -1,0 +1,34 @@
+# Виртуальные окружения Python
+.venv/
+venv/
+ENV/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# pytest и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Прочее
+*.log
+.env
+dist/
+build/
+*.egg-info/
